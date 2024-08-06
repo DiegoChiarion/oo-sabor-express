@@ -27,7 +27,7 @@ class Restaurante:
         self._ativo = not self._ativo
 
 
-# Criação dos objetos pertencentes a essa clase:
+'''# Criação dos objetos pertencentes a essa clase:
 restaurante_praca = Restaurante('praça', 'Lanches')
 restaurante_garp = Restaurante('blue Garp', 'Frutos do Mar')
 restaurante_garp.alternar_estado()
@@ -36,5 +36,5 @@ restaurante_praca.alternar_estado()
 Restaurante.listar_restaurantes()
 
 # Acessando objeto
-'''restaurante_garp.nome = 'Blue Garp'
+restaurante_garp.nome = 'Blue Garp'
 restaurante_garp.categoria = 'Frutos do Mar'''
